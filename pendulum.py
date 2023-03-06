@@ -17,7 +17,7 @@ class Pendulum_2D(System):
         self.args = [self.m, self.l]
 
         # Inherit parent class
-        super().__init__(ID=None)
+        super().__init__(ID=ID)
 
     #=============================
     # Canonical
